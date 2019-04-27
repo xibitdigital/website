@@ -1,0 +1,15 @@
+.footer {
+  color: white;
+  background: #000000;
+  padding: 4em 0 2.5em;
+  position: relative;
+  border-bottom: solid 0.25em #ea0026;
+}
+
+.footer__link {
+  color: #ea0026;
+}
+
+.footer__content {
+  line-height: 1.5em;
+}

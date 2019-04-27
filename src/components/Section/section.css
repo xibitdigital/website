@@ -1,0 +1,7 @@
+.section {
+  margin-bottom: 7rem;
+}
+
+.section:first-of-type {
+  padding-top: 2rem;
+}

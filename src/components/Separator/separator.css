@@ -1,0 +1,12 @@
+.separator {
+  background: #454545;
+  border: 0;
+  margin-bottom: 6em;
+  height: 1px;
+}
+@media (min-width: 768px) {
+  .separator {
+    flex: 0 0 50%;
+    max-width: 70%;
+  }
+}
