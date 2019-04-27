@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 importScripts(
-  "/xibitdigital/website/precache-manifest.57e50778d7c1b54a33f8c40ca792f32c.js"
+  "/xibitdigital/website/precache-manifest.3f922aa146afbf5bfd666ba0e2a5b2f1.js"
 );
 
 self.addEventListener('message', (event) => {
