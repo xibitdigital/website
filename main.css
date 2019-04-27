@@ -1,0 +1,9 @@
+body {
+  font-size: 1em;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+}
+
+.bg--dark_grey {
+  background: #1f1f1f !important;
+}
