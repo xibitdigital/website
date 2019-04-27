@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/xibitdigital/website/static/css/main.029d08b1.chunk.css",
-    "main.js": "/xibitdigital/website/static/js/main.f713494e.chunk.js",
-    "main.js.map": "/xibitdigital/website/static/js/main.f713494e.chunk.js.map",
-    "runtime~main.js": "/xibitdigital/website/static/js/runtime~main.8ab33e37.js",
-    "runtime~main.js.map": "/xibitdigital/website/static/js/runtime~main.8ab33e37.js.map",
-    "static/js/2.f36c21a1.chunk.js": "/xibitdigital/website/static/js/2.f36c21a1.chunk.js",
-    "static/js/2.f36c21a1.chunk.js.map": "/xibitdigital/website/static/js/2.f36c21a1.chunk.js.map",
-    "index.html": "/xibitdigital/website/index.html",
-    "precache-manifest.3f922aa146afbf5bfd666ba0e2a5b2f1.js": "/xibitdigital/website/precache-manifest.3f922aa146afbf5bfd666ba0e2a5b2f1.js",
-    "service-worker.js": "/xibitdigital/website/service-worker.js",
-    "static/css/main.029d08b1.chunk.css.map": "/xibitdigital/website/static/css/main.029d08b1.chunk.css.map"
+    "main.css": "/website/static/css/main.029d08b1.chunk.css",
+    "main.js": "/website/static/js/main.78882fc3.chunk.js",
+    "main.js.map": "/website/static/js/main.78882fc3.chunk.js.map",
+    "runtime~main.js": "/website/static/js/runtime~main.de462641.js",
+    "runtime~main.js.map": "/website/static/js/runtime~main.de462641.js.map",
+    "static/js/2.f36c21a1.chunk.js": "/website/static/js/2.f36c21a1.chunk.js",
+    "static/js/2.f36c21a1.chunk.js.map": "/website/static/js/2.f36c21a1.chunk.js.map",
+    "index.html": "/website/index.html",
+    "precache-manifest.38cdc9ab2e740f0eabd6a04e97d06b7e.js": "/website/precache-manifest.38cdc9ab2e740f0eabd6a04e97d06b7e.js",
+    "service-worker.js": "/website/service-worker.js",
+    "static/css/main.029d08b1.chunk.css.map": "/website/static/css/main.029d08b1.chunk.css.map"
   }
 }
