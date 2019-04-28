@@ -30,7 +30,19 @@ export default class Home extends React.Component<AllProps> {
         <Section>
           <Gutter>
             <SectionHeader title="Clients" />
-            <ClientsList items={["Home Office", "Dna-E", "EY", "Lloyds Bank", "Trade Doubler", "MTV"]} />
+            <ClientsList
+              items={[
+                "Home Office",
+                "Dna-E",
+                "EY",
+                "Lloyds Bank",
+                "Trade Doubler",
+                "MTV",
+                "O2",
+                "Upcast",
+                "Da Travel"
+              ]}
+            />
           </Gutter>
         </Section>
         <Footer />
