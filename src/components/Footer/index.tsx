@@ -11,7 +11,7 @@ export const Footer = () => (
           <br />
         </div>
         <div className="fl w-third-ns">
-          <span>Get In Touch: </span>
+          <span>Get in touch: </span>
           <a className="footer__link" href="mailto:hi@xibitdigital.com">
             hi@xibitdigital.com
           </a>
