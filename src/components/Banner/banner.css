@@ -22,6 +22,7 @@
 }
 
 .banner__intro_title {
+  font-size: 1.4em;
   font-weight: 700;
   margin: 1em 0;
 }
@@ -35,6 +36,10 @@
 @media screen and (min-width: 30em) {
   .banner__header {
     font-size: 5em;
+  }
+
+  .banner__intro_title {
+    font-size: 2.25rem;
   }
 
   .banner_intro_paragraph {
