@@ -38,16 +38,25 @@
     font-size: 5em;
   }
 
+  .banner__content {
+    max-width: 38.125em;
+  }
+
   .banner__intro_title {
     font-size: 2.25rem;
   }
 
   .banner_intro_paragraph {
-    font-size: 1.4em;
+    font-size: 1.2em;
+    line-height: 1.5em;
   }
 }
 
 @media screen and (min-width: 56.25em) {
+  .banner_intro_paragraph {
+    font-size: 1.4em;
+    line-height: 1.5em;
+  }
 }
 
 @media screen and (min-width: 75em) {
@@ -56,6 +65,11 @@
   }
   .banner__content {
     max-width: 50em;
+  }
+
+  .banner_intro_paragraph {
+    font-size: 1.4em;
+    line-height: 1.5em;
   }
 }
 

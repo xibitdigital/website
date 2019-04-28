@@ -12,7 +12,7 @@
 @media screen and (min-width: 30em) {
   .client-list {
     font-size: 1.2em;
-    line-height: 1.2em;
+    line-height: 1.5em;
   }
   .client-list__item {
     float: left;
