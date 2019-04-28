@@ -18,7 +18,7 @@ export default class Home extends React.Component<AllProps> {
               highlighted_title="Xibit"
               title="Digital"
               intro_title="Who we are"
-              intro_paragraph="Creative, results driven technology leaders with years of proven of R&D experience. Change agent and problem solver with a passion for technology; skilled in grasping the big picture new ideas and concepts, conceptualizing, developing, and implementing solutions and partnering closely with business leaders."
+              intro_paragraph="Creative, results driven technology leaders with years of proven R&D experience. Change agent and problem solver with a passion for technology; skilled in grasping the big picture new ideas and concepts, conceptualizing, developing, and implementing solutions and partnering closely with business leaders."
             />
           </Gutter>
         </Section>
