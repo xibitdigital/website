@@ -1,28 +1,29 @@
-.client-list {
+.service-list {
   font-size: 1em;
   font-weight: 500;
   line-height: 1.2em;
   margin: 0 auto;
   text-align: center;
 }
-.client-list__item {
+.service-list__item {
   float: none;
 }
 
 @media screen and (min-width: 30em) {
-  .client-list {
+  .service-list {
     font-size: 1.2em;
     line-height: 1.2em;
-  }
-  .client-list__item {
-    float: left;
   }
 }
 
 @media screen and (min-width: 56.25em) {
-  .client-list {
+  .service-list {
     font-size: 1.4em;
     line-height: 1.5em;
+  }
+  .service-list__item {
+    float: left;
+    width: 33.33333%;
   }
 }
 

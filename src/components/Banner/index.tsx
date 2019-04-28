@@ -18,7 +18,7 @@ export const Banner = (props: BannerProps) => (
       </h1>
       <Separator />
       <article className="banner__intro">
-        <h2 className="banner__intro_title f2">{props.intro_title}</h2>
+        <h2 className="banner__intro_title f2-ns">{props.intro_title}</h2>
         <p className="banner_intro_paragraph">{props.intro_paragraph}</p>
       </article>
     </div>

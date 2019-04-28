@@ -7,3 +7,4 @@ export * from "./Gutter";
 export * from "./Section";
 export * from "./SectionHeader";
 export * from "./ClientsList";
+export * from "./ServicesList";

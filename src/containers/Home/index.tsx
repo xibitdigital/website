@@ -1,6 +1,6 @@
 import * as React from "react";
 import { RouteComponentProps } from "react-router";
-import { Banner, Card, Footer, Gutter, Section, SectionHeader, ClientsList } from "../../components";
+import { Banner, Footer, Gutter, Section, SectionHeader, ClientsList, ServiceList } from "../../components";
 
 interface RouterProps {}
 
@@ -24,17 +24,7 @@ export default class Home extends React.Component<AllProps> {
         </Section>
         <Section>
           <Gutter>
-            <ul className="list pl0 mt2 cf">
-              <li className="fl w-third-ns">
-                <Card title="Consultancy" paragraph="" />
-              </li>
-              <li className="fl w-third-ns">
-                <Card title="Development" paragraph="" />
-              </li>
-              <li className="fl w-third-ns">
-                <Card title="DevOps" paragraph="" />
-              </li>
-            </ul>
+            <ServiceList items={[{ title: "Consultancy" }, { title: "Development" }, { title: "DevOps" }]} />
           </Gutter>
         </Section>
         <Section>
