@@ -21,6 +21,10 @@
   color: #ea0026;
 }
 
+.banner__intro {
+  padding: 0 1em;
+}
+
 .banner__intro_title {
   font-size: 1.4em;
   font-weight: 700;

@@ -8,3 +8,4 @@ export * from "./Section";
 export * from "./SectionHeader";
 export * from "./ClientsList";
 export * from "./ServicesList";
+export * from "./MasonryLayout";

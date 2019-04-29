@@ -1,0 +1,61 @@
+.masonry--h,
+.masonry--v {
+  margin-left: -8px;
+  counter-reset: brick;
+}
+
+.masonry--h {
+  flex-flow: row wrap;
+}
+.masonry {
+  display: flex;
+  width: 100%;
+  max-width: 50em;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+.masonry-brick--h {
+  flex: auto;
+  height: 3em;
+  min-width: 150px;
+}
+
+.masonry-brick {
+  text-align: center;
+  overflow: hidden;
+  margin: 0 0 8px 8px;
+  background-color: #1f1f1f;
+  color: white;
+  position: relative;
+  padding: 1em;
+  font-size: 1em;
+  font-weight: 700;
+  border: 3px solid #ea0026;
+}
+
+@media only screen and (max-width: 75em) and (min-width: 56.25em) {
+  .masonry-brick--h:nth-child(4n + 1) {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 30em) {
+  .masonry-brick--h {
+    height: 4.2em;
+  }
+
+  .masonry-brick {
+    padding: 1.4em;
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (min-width: 56.25em) {
+}
+
+@media screen and (min-width: 75em) {
+}
+
+@media screen and (min-width: 100em) {
+}

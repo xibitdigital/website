@@ -1,6 +1,15 @@
 import * as React from "react";
 import { RouteComponentProps } from "react-router";
-import { Banner, Footer, Gutter, Section, SectionHeader, ClientsList, ServiceList } from "../../components";
+import {
+  Banner,
+  Footer,
+  Gutter,
+  Section,
+  SectionHeader,
+  ClientsList,
+  ServiceList,
+  MansonryLayout
+} from "../../components";
 
 interface RouterProps {}
 
@@ -10,6 +19,19 @@ type AllProps = RouteComponentProps & HomeProps;
 
 export default class Home extends React.Component<AllProps> {
   render() {
+    const clients = [
+      "Home Office",
+      "Dna-E",
+      "Ernst & Young",
+      "Lloyds Bank",
+      "Trade Doubler",
+      "Aire",
+      "O2",
+      "Upcast",
+      "Da Travel",
+      "MTV"
+    ].map((a, i) => <span key={i}>{a}</span>);
+
     return (
       <React.Fragment>
         <Section>
@@ -30,19 +52,7 @@ export default class Home extends React.Component<AllProps> {
         <Section>
           <Gutter>
             <SectionHeader title="Clients" />
-            <ClientsList
-              items={[
-                "Home Office",
-                "Dna-E",
-                "EY",
-                "Lloyds Bank",
-                "Trade Doubler",
-                "MTV",
-                "O2",
-                "Upcast",
-                "Da Travel"
-              ]}
-            />
+            <MansonryLayout items={clients} />
           </Gutter>
         </Section>
         <Footer />
