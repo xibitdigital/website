@@ -6,7 +6,6 @@ import {
   Gutter,
   Section,
   SectionHeader,
-  ClientsList,
   ServiceList,
   MansonryLayout
 } from "../../components";

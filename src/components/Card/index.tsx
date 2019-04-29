@@ -11,7 +11,7 @@ export const Card = (props: CardProps) => (
     <figcaption className="card__content">
       <h3 className="card__title">{props.title}</h3>
       <div className="card__line" />
-      <p className="card__paragraph">{props.paragraph}</p>
+      {props.paragraph ? <p className="card__paragraph">{props.paragraph}</p> : ""}
     </figcaption>
   </figure>
 );
