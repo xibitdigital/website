@@ -7,13 +7,13 @@
 
 @media screen and (min-width: 30em) {
   .section__header {
-    font-size: 2.25rem;
+    font-size: 2.25em;
   }
 }
 
 @media screen and (min-width: 100em) {
   .section__header {
-    font-size: 2.25rem;
-    margin: 1.5em 0;
+    font-size: 2.25em;
+    margin: 1em 0;
   }
 }

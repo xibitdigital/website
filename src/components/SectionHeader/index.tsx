@@ -6,7 +6,7 @@ type SectionHeaderProps = {
 };
 
 export const SectionHeader = (props: SectionHeaderProps) => {
-  return <div className="section__header f2-ns">{props.title}</div>;
+  return <h3 className="section__header f2-ns">{props.title}</h3>;
 };
 
 export default SectionHeader;

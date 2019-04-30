@@ -12,10 +12,15 @@ type ReactNode =
 
 type SectionProps = {
   children: ReactNode;
+  "aria-label"?: string;
 };
 
 export const Section = (props: SectionProps) => {
-  return <div className="section">{props.children}</div>;
+  return (
+    <section className="section" aria-label={props["aria-label"]}>
+      {props.children}
+    </section>
+  );
 };
 
 export default Section;

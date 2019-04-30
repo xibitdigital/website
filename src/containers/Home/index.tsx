@@ -33,7 +33,7 @@ export default class Home extends React.Component<AllProps> {
 
     return (
       <React.Fragment>
-        <Section>
+        <Section aria-label="Who are we">
           <Gutter center={true}>
             <Banner
               highlighted_title="Xibit"
@@ -43,12 +43,12 @@ export default class Home extends React.Component<AllProps> {
             />
           </Gutter>
         </Section>
-        <Section>
+        <Section aria-label="Services">
           <Gutter>
             <ServiceList items={[{ title: "Consultancy" }, { title: "Development" }, { title: "DevOps" }]} />
           </Gutter>
         </Section>
-        <Section>
+        <Section aria-label="Clients">
           <Gutter>
             <SectionHeader title="Clients" />
             <MansonryLayout items={clients} />
