@@ -23,7 +23,7 @@ export default class Home extends React.Component<AllProps> {
       "Dna-E",
       "Ernst & Young",
       "Lloyds Bank",
-      "Trade Doubler",
+      "Tradedoubler",
       "Aire",
       "O2",
       "Upcast",
@@ -39,7 +39,7 @@ export default class Home extends React.Component<AllProps> {
               highlighted_title="Xibit"
               title="Digital"
               intro_title="Who we are"
-              intro_paragraph="Creative, results driven technology leader with years of proven R&D experience. Change agent and problem solving with a passion for technology; skilled in grasping the big picture new ideas and concepts, conceptualising, developing, and implementing solutions and partnering closely with business leaders."
+              intro_paragraph="Creative, results-driven technology leaders with years of proven R&D experience. Change agents and problem-solving with a passion for technology; skilled in grasping the big picture new ideas and concepts, conceptualising, developing, and implementing solutions and partnering closely with business leaders."
             />
           </Gutter>
         </Section>
