@@ -16,7 +16,7 @@ export const Footer = () => (
             hi@xibitdigital.com
           </a>
           <br />
-          <span>©2019 All rights reserved</span>
+          <span>©2024 All rights reserved</span>
         </div>
       </div>
     </Gutter>
