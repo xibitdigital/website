@@ -28,7 +28,12 @@ export default class Home extends React.Component<AllProps> {
       "O2",
       "Upcast",
       "Da Travel",
-      "MTV"
+      "MTV",
+      "Aker Systems",
+      "Defra",
+      "FCDO",
+      "TSL",
+      "GEL"
     ].map((a, i) => <span key={i}>{a}</span>);
 
     return (
