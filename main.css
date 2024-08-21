@@ -7,3 +7,17 @@ body {
 .bg--dark_grey {
   background: #1f1f1f !important;
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  padding: 0;
+}
