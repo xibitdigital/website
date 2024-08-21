@@ -44,7 +44,8 @@ export default class Home extends React.Component<AllProps> {
               highlighted_title="Xibit"
               title="Digital"
               intro_title="Who we are"
-              intro_paragraph="Creative, results-driven technology leaders with years of proven R&D experience. Change agents and problem-solving with a passion for technology; skilled in grasping the big picture new ideas and concepts, conceptualising, developing, and implementing solutions and partnering closely with business leaders."
+              intro_paragraph="At Xibit Digital, we pride ourselves on being creative and results-driven technology leaders with a wealth of experience in research and development (R&D). Our team comprises visionary change agents who are passionate about leveraging technology to drive innovation and deliver impactful solutions. With a proven track record of success, we excel at understanding the broader business landscape, identifying emerging trends, and translating new ideas and concepts into actionable strategies. 
+Our expertise lies in conceptualizing, developing, and implementing cutting-edge solutions that not only address complex challenges but also propel our clients' businesses forward. We are dedicated to fostering strong partnerships with business leaders, ensuring that our technology solutions align seamlessly with their strategic goals. Whether it's enhancing operational efficiency, driving digital transformation, or unlocking new opportunities for growth, our commitment is to deliver exceptional results that make a tangible difference."
             />
           </Gutter>
         </Section>

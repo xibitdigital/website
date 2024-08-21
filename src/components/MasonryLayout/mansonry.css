@@ -37,8 +37,7 @@
   border-width: 3px;
   border-left: 0 !important;
   border-bottom: 0 !important;
-  margin-bottom: 1.4em;
-;
+
 }
 
 @media only screen and (max-width: 75em) and (min-width: 56.25em) {
@@ -59,10 +58,22 @@
 }
 
 @media screen and (min-width: 56.25em) {
+  .masonry-brick {
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+  }
 }
 
 @media screen and (min-width: 75em) {
+  .masonry-brick {
+    margin-bottom: 1em;
+    margin-right: 1em;
+  }
 }
 
 @media screen and (min-width: 100em) {
+  .masonry-brick {
+    margin-bottom: 1.4em;
+    margin-right: 1.4em;
+  }
 }

@@ -51,4 +51,11 @@
 }
 
 @media screen and (min-width: 100em) {
+  .card__title {
+    font-size: 3.25em;
+  }
+
+  .card__line {
+      width: 7em;
+  }
 }
