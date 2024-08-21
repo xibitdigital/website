@@ -18,7 +18,7 @@
 
 .card__title {
   color: white;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 700;
   margin: 1em 0;
 }
@@ -33,7 +33,7 @@
 
 @media screen and (min-width: 30em) {
   .card__title {
-    font-size: 2.25em;
+    font-size: 2.25rem;
   }
 
   .card__paragraph {
@@ -43,19 +43,19 @@
 
 @media screen and (min-width: 56.25em) {
   .card__title {
-    font-size: 2.25em;
+    font-size: 2.25rem;
   }
 }
 
 @media screen and (min-width: 75em) {
   .card__title {
-    font-size: 3.25em;
+    font-size: 3.25rem;
   }
 }
 
 @media screen and (min-width: 100em) {
   .card__title {
-    font-size: 3.25em;
+    font-size: 3.25rem;
   }
 
   .card__line {
