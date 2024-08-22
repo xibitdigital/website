@@ -1,5 +1,7 @@
 .section {
-  margin-bottom: 0;
+  margin-bottom: 1rem;
+  flex: 1;
+  position: relative;;
 }
 
 .section:first-of-type {

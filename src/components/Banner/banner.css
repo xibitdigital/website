@@ -22,7 +22,7 @@
 }
 
 .banner__intro {
-  padding: 0 1em;
+  padding: 1em;
 }
 
 .banner__intro_title {
@@ -30,6 +30,7 @@
   font-weight: 700;
   margin: 1em 0;
 }
+
 .banner_intro_paragraph {
   font-size: 1em;
   font-weight: 500;

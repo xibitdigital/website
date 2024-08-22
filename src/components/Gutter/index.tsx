@@ -13,10 +13,15 @@ type ReactNode =
 type GutterProps = {
   children: ReactNode;
   center?: boolean;
+  vcenter?: boolean;
 };
 
 export const Gutter = (props: GutterProps) => {
-  const classes = props.center ? " gutter gutter--center" : "gutter";
+  const classes = props.center
+    ? " gutter gutter--center"
+    : props.vcenter
+    ? " gutter gutter--vertically-center"
+    : "gutter";
 
   return <div className={classes}>{props.children}</div>;
 };

@@ -50,8 +50,10 @@ Our expertise lies in conceptualizing, developing, and implementing cutting-edge
           </Gutter>
         </Section>
         <Section aria-label="Services">
-          <Gutter>
-            <ServiceList items={[{ title: "Consultancy" }, { title: "Development" }, { title: "DevOps" }]} />
+          <Gutter vcenter={true}>
+            <ServiceList
+              items={[{ title: "Consultancy" }, { title: "Development" }, { title: "DevOps" }]}
+            />
           </Gutter>
         </Section>
         <Section aria-label="Clients">
