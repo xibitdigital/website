@@ -1,5 +1,5 @@
 .section {
-  margin-bottom: 1rem;
+  margin-bottom: 0em;
   flex: 1;
   position: relative;;
 }
@@ -18,9 +18,6 @@
 }
 
 @media screen and (min-width: 30em) {
-  .section {
-    margin-bottom: 0em;
-  }
   .section:first-of-type {
     padding-top: 2rem;
   }
@@ -30,7 +27,6 @@
 }
 
 @media screen and (min-width: 56.25em) {
-
 }
 
 @media screen and (min-width: 75em) {
