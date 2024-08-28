@@ -7,7 +7,18 @@ export const Footer = () => (
   <footer className="footer">
     <Gutter>
       <div className="cf footer__content">
-        <div className="fl w-two-thirds-ns">
+        <div className="fl w-third-ns">
+          <span>Our products</span>
+          <ul>
+            <li>
+              <a className="footer__link" href="https://ai-ops.xibitdigital.com">
+                AI OPS
+              </a>
+            </li>
+          </ul>
+          <br />
+        </div>
+        <div className="fl w-third-ns">
           <br />
         </div>
         <div className="fl w-third-ns">
